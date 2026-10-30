@@ -1,0 +1,72 @@
+import { GolfCourseInfo } from '../types';
+
+export const danangGolfCourses: GolfCourseInfo[] = [
+  {
+    id: 'hoiana-shores',
+    name: 'Hoiana Shores Golf Club',
+    koreanName: '호이아나 쇼어스 골프 클럽',
+    designer: 'Robert Trent Jones Jr. (로버트 트렌트 존스 주니어)',
+    holes: 18,
+    par: 71,
+    distanceFromCity: '다낭 한강 시내 기준 약 50분',
+    distanceFromHoiana: '단지 내 직결 (도보 또는 카트 이동 1분)',
+    distanceFromCrown: '차량 약 40분',
+    courseStyle: '정통 해안 듄스 링크스(Links) 코스. 동해 바다와 웅장한 천연 모래 언덕을 가로지르는 챔피언십 레이아웃.',
+    nightGolf: false,
+    facilities: ['세계적 수준의 클럽하우스', '프로샵', '오션뷰 파인다이닝', '드라이빙 레인지', '최고급 락커룸 & 사우나'],
+    phComparisonNote: '필리핀 클락의 미모사나 썬밸리와 달리, 인공 조경이 아닌 바닷바람과 자연 모래언덕이 살아있는 스코틀랜드풍 정통 바다 링크스 코스로 필리핀에서는 경험하기 힘든 독보적 코스 관리도를 보여줍니다.',
+    officialUrl: 'https://www.hoiana.com/golf',
+    verifiedDate: '2026년 10월 확인'
+  },
+  {
+    id: 'brg-danang',
+    name: 'BRG Da Nang Golf Resort',
+    koreanName: 'BRG 다낭 골프 리조트 (노먼 & 니클라우스 36홀)',
+    designer: 'Greg Norman (듄스 18홀) + Jack Nicklaus (벌크헤드 18홀)',
+    holes: 36,
+    par: 72,
+    distanceFromCity: '다낭 시내에서 차량 약 15~20분',
+    distanceFromHoiana: '차량 약 30분',
+    distanceFromCrown: '차량 약 8분 (크라운 카지노 초인접)',
+    courseStyle: '전설적인 두 거장이 설계한 36홀 메머드 코스. 호주풍 모래 언덕의 노먼 코스와 미국 플로리다풍 나무 옹벽(Bulkhead)의 니클라우스 코스 조화.',
+    nightGolf: true,
+    facilities: ['야간 라이트 조명 시설', '대형 클럽하우스', '니클라우스 골프 아카데미', '프로샵', '레스토랑'],
+    phComparisonNote: '크라운 카지노에서 10분 이내로 도달할 수 있어 마닐라 시내 골프장의 긴 이동시간에 지친 골퍼들에게 최상의 접근성을 제공합니다. 야간 조명 라운딩도 가능합니다.',
+    officialUrl: 'https://dananggolfclub.com',
+    verifiedDate: '2026년 10월 확인'
+  },
+  {
+    id: 'montgomerie-links',
+    name: 'Montgomerie Links Vietnam',
+    koreanName: '몽고메리 링크스 베트남',
+    designer: 'Colin Montgomerie (콜린 몽고메리)',
+    holes: 18,
+    par: 72,
+    distanceFromCity: '다낭 시내에서 약 20분',
+    distanceFromHoiana: '차량 약 28분',
+    distanceFromCrown: '차량 약 10분',
+    courseStyle: '유럽피언 투어 레전드 몽고메리가 설계한 정통 링크스 스타일. 곳곳에 배치된 항아리 벙커와 물결치는 페어웨이가 정교한 샷을 요구.',
+    nightGolf: false,
+    facilities: ['빌라 숙박 단지', '클럽하우스 레스토랑', '드라이빙 레인지', '퍼팅 그린'],
+    phComparisonNote: '클락 FA코리아처럼 한국인 골퍼 친화적인 시스템을 완비하고 있으면서도, 관리가 매우 철저하여 그린 스피드가 일정하고 페어웨이 디봇 관리가 우수합니다.',
+    officialUrl: 'https://montgomerielinks.com',
+    verifiedDate: '2026년 10월 확인'
+  },
+  {
+    id: 'bana-hills',
+    name: 'Ba Na Hills Golf Club',
+    koreanName: '바나힐 골프 클럽 (루크 도널드 설계)',
+    designer: 'Luke Donald (루크 도널드)',
+    holes: 18,
+    par: 72,
+    distanceFromCity: '다낭 시내에서 서쪽 산악지대로 약 35~40분',
+    distanceFromHoiana: '차량 약 1시간 10분',
+    distanceFromCrown: '차량 약 40분',
+    courseStyle: '바나힐 산기슭의 웅장한 열대 우림 계곡을 따라 펼쳐진 마운틴 코스. 시원한 산바람과 극적인 업다운 고저차가 특징.',
+    nightGolf: true,
+    facilities: ['전 홀 야간 조명 시설 완비', '럭셔리 산악 클럽하우스', '골프 아카데미', 'VIP 다이닝'],
+    phComparisonNote: '클락 썬밸리 골프장의 산악형 다이내믹함을 연상시키지만, 전 홀에 완벽한 야간 라이트 시스템이 갖추어져 있어 낮 동안 카지노나 휴양을 즐긴 뒤 쾌적한 야간 18홀 라운딩이 가능합니다.',
+    officialUrl: 'https://banahillsgolf.com',
+    verifiedDate: '2026년 10월 확인'
+  }
+];
